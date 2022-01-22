@@ -9,5 +9,6 @@ require "user.treesiter"
 require "user.prettier"
 require "user.gitsigns"
 require "user.autopairs"
+require "user.nvim-tree"
 require "user.transparency"
 
