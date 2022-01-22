@@ -6,5 +6,6 @@ require "user.cmp"
 require "user.lsp"
 require "user.telescope"
 require "user.treesiter"
+require "user.prettier"
 require "user.transparency"
 

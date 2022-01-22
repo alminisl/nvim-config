@@ -82,6 +82,11 @@ return packer.startup(function(use)
 
   -- Prettier 
   use "prettier/vim-prettier"
+
+ -- Github copilot
+ use "github/copilot.vim"
+
+  
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
