@@ -67,6 +67,8 @@ return packer.startup(function(use)
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
+  use "SirVer/ultisnips"
+  use "mlaursen/vim-react-snippets"
 
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
@@ -76,7 +78,8 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use 'nvim-telescope/telescope-media-files.nvim'
 
-
+-- Bufferline
+use "akinsho/bufferline.nvim"
     -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
@@ -89,11 +92,11 @@ return packer.startup(function(use)
 
  -- Github copilot
  use "github/copilot.vim"
- 
+ use "hrsh7th/cmp-copilot"
+
    -- Git
   use "lewis6991/gitsigns.nvim"
 
-  
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
