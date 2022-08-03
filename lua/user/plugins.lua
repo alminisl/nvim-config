@@ -78,8 +78,8 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use 'nvim-telescope/telescope-media-files.nvim'
 
--- Bufferline
-use "akinsho/bufferline.nvim"
+  -- Bufferline
+  use "akinsho/bufferline.nvim"
     -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
@@ -96,6 +96,7 @@ use "akinsho/bufferline.nvim"
 
    -- Git
   use "lewis6991/gitsigns.nvim"
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
