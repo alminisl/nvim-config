@@ -1,6 +1,6 @@
 local configs = require("nvim-treesitter.configs")
 configs.setup {
-  ensure_installed = "maintained",
+  ensure_installed = {"typescript"},
   sync_install = false, 
   highlight = {
     enable = true, -- false will disable the whole extension
